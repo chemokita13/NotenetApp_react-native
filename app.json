@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "NoteNet",
+    "slug": "notenet-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/notenetSmallLogo.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/notenetSmallLogo.png",
+        "backgroundColor": "#141414"
+      },
+      "package": "com.chemokita13.notenetapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
